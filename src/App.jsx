@@ -144,7 +144,7 @@ function App() {
     const body = encodeURIComponent(
       `Hi Adnan,\n\n${form.message}\n\nFrom: ${form.name}\nEmail: ${form.email}`
     );
-    window.location.href = `mailto:hello@example.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:adnan.adil.jah@gmail.com?subject=${subject}&body=${body}`;
     setSubmitted(true);
   }
 
@@ -259,7 +259,7 @@ function App() {
               <p className="eyebrow">HAVE SOMETHING IN MIND?</p>
               <h2>Let’s make<br /><span>it happen.</span></h2>
               <p className="contact-description">Have a project, an opportunity, or just want to say hello? My inbox is open.</p>
-              <a className="contact-email" href="mailto:hello@example.com"><Mail size={17} /> hello@example.com <ArrowUpRight size={16} /></a>
+              <a className="contact-email" href="mailto:adnan.adil.jah@gmail.com"><Mail size={17} /> adnan.adil.jah@gmail.com <ArrowUpRight size={16} /></a>
               <div className="social-links">
                 <a href="https://github.com/" target="_blank" rel="noreferrer"><Code2 size={17} /> GitHub <ArrowUpRight size={13} /></a>
                 <a href="https://linkedin.com/" target="_blank" rel="noreferrer"><Code2 size={17} /> LinkedIn <ArrowUpRight size={13} /></a>
