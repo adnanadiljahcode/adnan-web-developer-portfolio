@@ -264,7 +264,7 @@ function App() {
               <a className="contact-email" href="mailto:adnan.adil.jah+lovable@gmail.com"><Mail size={17} /> adnan.adil.jah+lovable@gmail.com <ArrowUpRight size={16} /></a>
               <div className="social-links">
                 <a href="https://github.com/adnanadiljahcode/adnan-web-developer-portfolio" target="_blank" rel="noreferrer"><Code2 size={17} /> GitHub <ArrowUpRight size={13} /></a>
-                <a href="https://chatgpt.com/c/6accbd2c-f1b4-83e8-90b6-292403fd2174" target="_blank" rel="noreferrer"><Code2 size={17} /> ChatGPT <ArrowUpRight size={13} /></a>
+                <a href="https://chatgpt.com/" target="_blank" rel="noreferrer"><Code2 size={17} /> ChatGPT <ArrowUpRight size={13} /></a>
               </div>
             </div>
             <form className="contact-form" onSubmit={handleSubmit}>
