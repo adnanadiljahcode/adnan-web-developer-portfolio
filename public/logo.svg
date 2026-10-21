@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Adnan portfolio orbit logo</title>
+  <defs><linearGradient id="a" x1="20" y1="18" x2="108" y2="112" gradientUnits="userSpaceOnUse"><stop stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>
+  <rect width="128" height="128" rx="30" fill="#0B1020"/>
+  <g fill="none" stroke="url(#a)" stroke-width="3.5"><ellipse cx="64" cy="64" rx="43" ry="17" transform="rotate(-38 64 64)"/><ellipse cx="64" cy="64" rx="43" ry="17" transform="rotate(38 64 64)" opacity=".72"/></g>
+  <circle cx="98" cy="31" r="5.5" fill="#67E8F9"/>
+  <path d="M39 83 57 40h10l22 43H77l-5-11H51l-4 11H39Zm16-20h13l-7-16-6 16Z" fill="#F8FAFC"/>
+</svg>
