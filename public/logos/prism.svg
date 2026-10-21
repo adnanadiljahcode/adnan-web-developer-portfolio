@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Adnan AA prism monogram</title>
+  <defs><linearGradient id="g" x1="18" y1="18" x2="110" y2="110" gradientUnits="userSpaceOnUse"><stop stop-color="#A78BFA"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>
+  <rect width="128" height="128" rx="28" fill="#0B1020"/>
+  <path d="M64 10 116 40v48l-52 30L12 88V40L64 10Z" fill="none" stroke="url(#g)" stroke-width="2.5" opacity=".85"/>
+  <path d="M25 86 44 42h9l18 44H60l-4-10H40l-4 10H25Zm18-19h10l-5-13-5 13Zm15 19 19-44h9l18 44H94l-4-10H74l-4 10H58Z" fill="#F8FAFC"/>
+</svg>
