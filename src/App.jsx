@@ -54,6 +54,48 @@ const skills = [
   { name: "Responsive Design", level: "Layouts for every screen" },
 ];
 
+
+function AnimatedLogoShowcase() {
+  return (
+    <section className="logo-lab section-wrap" aria-labelledby="logo-lab-title">
+      <div className="logo-lab-heading">
+        <p className="eyebrow">IDENTITY IN MOTION · 01—03</p>
+        <h2 id="logo-lab-title">A little motion.<br /><span>A lasting impression.</span></h2>
+        <p>Three original animated marks exploring a more expressive visual identity for Adnan Adil.</p>
+      </div>
+      <div className="logo-lab-grid">
+        <article className="logo-tile logo-tile-orbit">
+          <div className="logo-stage">
+            <div className="orbit-mark" aria-label="Animated orbit monogram logo">
+              <span className="orbit-ring orbit-ring-a" /><span className="orbit-ring orbit-ring-b" />
+              <span className="orbit-dot" /><b>A<span>.</span></b>
+            </div>
+          </div>
+          <div className="logo-tile-meta"><span>01 / ORBIT</span><strong>Quiet confidence</strong><small>Monogram · Precision · Craft</small></div>
+        </article>
+        <article className="logo-tile logo-tile-signal">
+          <div className="logo-stage">
+            <div className="signal-mark" aria-label="Animated signal wordmark logo">
+              <span className="signal-bars"><i /><i /><i /><i /><i /></span>
+              <b>adnan<span>.dev</span></b>
+            </div>
+          </div>
+          <div className="logo-tile-meta"><span>02 / SIGNAL</span><strong>Digital by nature</strong><small>Wordmark · Rhythm · Energy</small></div>
+        </article>
+        <article className="logo-tile logo-tile-prism">
+          <div className="logo-stage">
+            <div className="prism-mark" aria-label="Animated prism initials logo">
+              <span className="prism-shape prism-shape-one" /><span className="prism-shape prism-shape-two" />
+              <b>AA</b><i />
+            </div>
+          </div>
+          <div className="logo-tile-meta"><span>03 / PRISM</span><strong>Made to stand out</strong><small>Geometry · Depth · Perspective</small></div>
+        </article>
+      </div>
+    </section>
+  );
+}
+
 function SectionHeading({ eyebrow, title, note }) {
   return (
     <div className="section-heading">
@@ -208,7 +250,7 @@ function App() {
           <a className="scroll-cue" href="#work"><span>SCROLL TO EXPLORE</span><ArrowDownRight size={16} /></a>
         </section>
 
-        <section className="work-section section-wrap section-block" id="work">
+        <AnimatedLogoShowcase />\n\n        <section className="work-section section-wrap section-block" id="work">
           <SectionHeading eyebrow="SELECTED WORK · 01—03" title="A few things I’ve made." note="A selection of concepts and projects that reflect how I approach the web." />
           <div className="project-grid">
             {projects.map((project) => (
