@@ -250,8 +250,9 @@ function App() {
           <a className="scroll-cue" href="#work"><span>SCROLL TO EXPLORE</span><ArrowDownRight size={16} /></a>
         </section>
 
-        <AnimatedLogoShowcase />\n\n        <section className="work-section section-wrap section-block" id="work">
-          <SectionHeading eyebrow="SELECTED WORK · 01—03" title="A few things I’ve made." note="A selection of concepts and projects that reflect how I approach the web." />
+        <AnimatedLogoShowcase />
+        <section className="work-section section-wrap section-block" id="work">
+        <SectionHeading eyebrow="SELECTED WORK · 01—03" title="A few things I’ve made." note="A selection of concepts and projects that reflect how I approach the web." />
           <div className="project-grid">
             {projects.map((project) => (
               <article className="project-card" key={project.number}>
